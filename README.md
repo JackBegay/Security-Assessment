@@ -41,7 +41,7 @@ For a course I had to keep an incident handler's journal to record all my findin
 -Machine with linux running on it<br>
 -Wireshark<br>
 **The 5 W's:** None<br>
-**Notes:** For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.
+**Notes:** For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.<br>
 <br>
 
 **Date:** February 25th, 2025<br>
@@ -62,17 +62,17 @@ For a course I had to keep an incident handler's journal to record all my findin
 4. Lastly I need to examine the packet header data from the capture file. I use a similar command to the last with       sudo tcpdump -nn -r capture.pcap -v   with the -r to read the file capture.pcap with detaled packet data and not still not looking up ports or IP addresses.<br>
 <br>
 
-Date: February 25th, 2025<br>
-Entry: #4<br>
-Description: Investigate a suspicious file hash<br>
-Tools Used:<br>
+**Date:** February 25th, 2025<br>
+**Entry:** #4<br>
+**Description:** Investigate a suspicious file hash<br>
+**Tools Used:**<br>
 -VirusTotal<br>
-The 5 W's: <br>
-Who: An unknown malicious actor<br>
-What: An suspicious email sent to an employee containing a malicious file that was opened with the SHA-256 file hash of 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b<br>
-Where: An employee's computer at a financial consulting company<br>
-When: At 2 p.m. today, an alert was sent directly to the SOC of the organization once the IDS detected the file<br>
-Why: The employee who was sent the email opened and downloaded the malicious attachment<br>
+**The 5 W's:** <br>
+**Who:** An unknown malicious actor<br>
+**What:** An suspicious email sent to an employee containing a malicious file that was opened with the SHA-256 file hash of 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b<br>
+**Where:** An employee's computer at a financial consulting company<br>
+**When:** At 2 p.m. today, an alert was sent directly to the SOC of the organization once the IDS detected the file<br>
+**Why:** The employee who was sent the email opened and downloaded the malicious attachment<br>
 Notes:<br>
 Found the suspicious email to have multiple grammatical errors and a file attachment that needed the given password. Once the password was used, the file downloaded infected the employee's machine. After researching I found the file to be seen as malicious by 75% of security vendors using VirusTotal and labeled as a Trojan malware, so I recommended the incident be looked into further.
 
