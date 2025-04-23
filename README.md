@@ -32,7 +32,7 @@ The 5 W's: <br>
 Notes: <br>
 -How will the health care company prevent a similar incident from happening again?<br>
 -Should health care company pay the large sum of money for the decryption key. <br>
-
+<br>
 
 Date: February 24th, 2025<br>
 Entry: #2<br>
@@ -42,7 +42,7 @@ Tools used: <br>
 -Wireshark<br>
 The 5 W's: None<br>
 Notes: For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.
-
+<br>
 
 Date: February 25th, 2025<br>
 Entry: #3<br>
@@ -60,7 +60,7 @@ Notes: I used tcpdump instead of wireshark, but they both accomplish similar obj
 3. Next I had to capture 7 packets on port 80 but this time I had to put save the captured data to a specfic file and ensure no IP addresses or port names were resolved during this process to not alert attackers. I used  sudo tcpdump -i eth0 -nn -c7 port 80 -w capture.pcap &   which captured the 7 packets through port 80 and ethernet interface, but this time added -nn to not resolve any IP addresses or ports to their names, as well as  -w capture.pcap  to move captured data and save it on this file.<br>
 
 4. Lastly I need to examine the packet header data from the capture file. I use a similar command to the last with       sudo tcpdump -nn -r capture.pcap -v   with the -r to read the file capture.pcap with detaled packet data and not still not looking up ports or IP addresses.<br>
-
+<br>
 
 Date: February 25th, 2025<br>
 Entry: #4<br>
