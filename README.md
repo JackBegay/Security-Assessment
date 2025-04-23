@@ -20,10 +20,10 @@ For a course I had to keep an incident handler's journal to record all my findin
 ## Steps
 
 Date: February 23rd, 2024 <br>
-Entry: #1
-Description: For this entry I am documenting a cybersecurity incident that has occured at a health care company.
-Tools used: None
-The 5 W's: 
+Entry: #1<br>
+Description: For this entry I am documenting a cybersecurity incident that has occured at a health care company.<br>
+Tools used: None<br>
+The 5 W's: <br>
 -Who: An organized ethical hacker group
 -What: A security incident with ransomware
 -Where: At a local health care company
