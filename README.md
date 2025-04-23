@@ -19,7 +19,7 @@ For a course I had to keep an incident handler's journal to record all my findin
 
 ## Steps
 
-Date: February 23rd, 2024 <br>
+Date: February 23rd, 2025 <br>
 Entry: #1<br>
 Description: For this entry I am documenting a cybersecurity incident that has occured at a health care company.<br>
 Tools used: None<br>
