@@ -53,9 +53,9 @@ Tools used:
 The 5 W's: None
 Notes: I used tcpdump instead of wireshark, but they both accomplish similar objectives like capturing, filtering, and analyzing network traffic. Using the command-line interface was a bit different than the graphical user interface on Wireshark and took a bit of adjusting. 
 
-1.I first looked to see what interfaces were available using  sudo tcpdump -D  and found the Ethernet network interface was open to packet capture. 
+1. I first looked to see what interfaces were available using  sudo tcpdump -D  and found the Ethernet network interface was open to packet capture. 
 
-2.I then filtered 5 packets from the eth0 interface with  sudo tcpdump -i eth0 -v -c5   with the -v added to display detailed packet information. I examined the packet output to find timestamp, protocol used, IP address, along with the detailed information like type of service, time to live, and any flags with each packet. 
+2. I then filtered 5 packets from the eth0 interface with  sudo tcpdump -i eth0 -v -c5   with the -v added to display detailed packet information. I examined the packet output to find timestamp, protocol used, IP address, along with the detailed information like type of service, time to live, and any flags with each packet. 
 
 3. Next I had to capture 7 packets on port 80 but this time I had to put save the captured data to a specfic file and ensure no IP addresses or port names were resolved during this process to not alert attackers. I used  sudo tcpdump -i eth0 -nn -c7 port 80 -w capture.pcap &   which captured the 7 packets through port 80 and ethernet interface, but this time added -nn to not resolve any IP addresses or ports to their names, as well as  -w capture.pcap  to move captured data and save it on this file.
 
