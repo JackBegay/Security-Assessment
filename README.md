@@ -19,39 +19,39 @@ For a course I had to keep an incident handler's journal to record all my findin
 
 ## Steps
 
-Date: February 23rd, 2025 <br>
-Entry: #1<br>
-Description: For this entry I am documenting a cybersecurity incident that has occured at a health care company.<br>
-Tools used: None<br>
-The 5 W's: <br>
--Who: An organized ethical hacker group<br>
--What: A security incident with ransomware<br>
--Where: At a local health care company<br>
--When: Today at 9 a.m.<br>
--Why: The group of unethical hackers used a phishing attack to be able to access the company's system. Once they were able to breach the system they launced their ransomware, encrypting crucial files. They seem to be motivated by financial gain only as they left a note explaining they demand a large amount of money in exchange for the decryption key to reverse the damage done.<br>
-Notes: <br>
+**Date:** February 23rd, 2025 <br>
+**Entry:** #1<br>
+**Description:** For this entry I am documenting a cybersecurity incident that has occured at a health care company.<br>
+**Tools used:** None<br>
+**The 5 W's:** <br>
+**-Who:** An organized ethical hacker group<br>
+**-What:** A security incident with ransomware<br>
+**-Where:** At a local health care company<br>
+**-When:** Today at 9 a.m.<br>
+**-Why:** The group of unethical hackers used a phishing attack to be able to access the company's system. Once they were able to breach the system they launced their ransomware, encrypting crucial files. They seem to be motivated by financial gain only as they left a note explaining they demand a large amount of money in exchange for the decryption key to reverse the damage done.<br>
+**Notes:** <br>
 -How will the health care company prevent a similar incident from happening again?<br>
 -Should health care company pay the large sum of money for the decryption key. <br>
 <br>
 
-Date: February 24th, 2025<br>
-Entry: #2<br>
-Description: Analyzing a packet capture file<br>
-Tools used: <br>
+**Date:** February 24th, 2025<br>
+**Entry:** #2<br>
+**Description:** Analyzing a packet capture file<br>
+**Tools used:** <br>
 -Machine with linux running on it<br>
 -Wireshark<br>
-The 5 W's: None<br>
-Notes: For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.
+**The 5 W's:** None<br>
+**Notes:** For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.
 <br>
 
-Date: February 25th, 2025<br>
-Entry: #3<br>
-Description: Capturing my first packet<br>
-Tools used:<br>
+**Date:** February 25th, 2025<br>
+**Entry:** #3<br>
+**Description:** Capturing my first packet<br>
+**Tools used:**<br>
 -Machine using Linux<br>
 -Tcpdump<br>
-The 5 W's: None<br>
-Notes: I used tcpdump instead of wireshark, but they both accomplish similar objectives like capturing, filtering, and analyzing network traffic. Using the command-line interface was a bit different than the graphical user interface on Wireshark and took a bit of adjusting. <br>
+**The 5 W's:** None<br>
+**Notes:** I used tcpdump instead of wireshark, but they both accomplish similar objectives like capturing, filtering, and analyzing network traffic. Using the command-line interface was a bit different than the graphical user interface on Wireshark and took a bit of adjusting. <br>
 
 1. I first looked to see what interfaces were available using  sudo tcpdump -D  and found the Ethernet network interface was open to packet capture. <br>
 
