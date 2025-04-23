@@ -41,7 +41,7 @@ For a course I had to keep an incident handler's journal to record all my findin
 -Machine with linux running on it<br>
 -Wireshark<br>
 **The 5 W's:** None<br>
-**Notes:** For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs file.<br>
+**Notes:** For this entry I took a .pcap file and put it into Wireshark to see the contents inside. I used filtering to find specific IP addresses in the packet and details on the packets they were involved in. I was able to find source and destination IP addresses, protocol being used, and source and desination ports. I also filterd to select traffic based on MAC address to find specfic device's network interface cards sending and receiving packets on the network. For these specifc MAC addresses I searched for, I had to find the DNS query they were looking for, which were all for a Google Docs page.<br>
 <br>
 
 **Date:** February 25th, 2025<br>
