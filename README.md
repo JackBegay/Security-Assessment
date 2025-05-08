@@ -6,16 +6,16 @@ For a course I had to keep an incident handler's journal to record all my findin
 
 ### Skills Learned
 
--Documenting a cybersecurity incident
--Analyzing a packet capture file
--Capturing a packet
--Investigating a suspicious file hash
+- Documenting a cybersecurity incident
+- Analyzing a packet capture file
+- Capturing a packet
+- Investigating a suspicious file hash
 
 ### Tools Used
 
--Wireshark
--Tcpdump
--VirusTotal
+- Wireshark
+- Tcpdump
+- VirusTotal
 
 ## Steps
 
