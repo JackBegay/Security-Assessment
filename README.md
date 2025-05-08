@@ -2,7 +2,7 @@
 
 ## Objective
 
-For a course I had to keep an incident handler's journal to record all my findings after completing certain activities and the tools I used to complete it. I kept this to log my key takeaways, decription of incident, and what I did to accomplish it.
+For a course I had to keep an incident handler's journal to record all my findings after completing certain activities and the tools I used to complete it. I kept this to log my key takeaways, description of incidents, and what I did to mediate it.
 
 ### Skills Learned
 
